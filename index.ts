@@ -10,7 +10,8 @@ document.getElementById('get').addEventListener('click', get_value);
 document.getElementById('set').addEventListener('click', set_value);
 document.getElementById('new').addEventListener('click', new_chiave);
 
-
+//set e new servono per creare il nuovo teatro in base alle dimensioni richieste
+// get serve per prendere il teatro se con nuove dimensioni o con le dimensioni standard
 function get_value() {
   //observable
   const observable = ajax({
@@ -52,7 +53,7 @@ function set_value() {
   });
 }
 
-function new_chiave(){
+function new_chiave() {
   //observable
   const observable = ajax({
     method: 'GET',
