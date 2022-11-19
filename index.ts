@@ -4,7 +4,7 @@ import { ajax, AjaxResponse, AjaxRequest, AjaxError } from 'rxjs/ajax';
 const URL: string =
   'https://eu-central-1.aws.data.mongodb-api.com/app/kvaas-giwjg/endpoint/';
 
-var chiave: string;
+var chiave: string = "de3ee7d0";
 
 document.getElementById('get').addEventListener('click', get_value);
 document.getElementById('set').addEventListener('click', set_value);
